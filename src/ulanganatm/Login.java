@@ -49,7 +49,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel1.setText("WELCOME TO ATM BANK");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(130, 10, 130, 30);
+        jLabel1.setBounds(130, 10, 170, 30);
         getContentPane().add(apin);
         apin.setBounds(100, 100, 190, 80);
 

@@ -193,7 +193,7 @@ public class Home extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null,"Mesin ATM  BRI tidak mengeluarkan uang koin "
         + "\nSilahkan ulangi kembali","Transaksi GAGAL", 0);
         }else if (s<50000) {
-            JOptionPane.showMessageDialog(null,"Jumlah Penarikan Minimal Rp,50000","ERROR",0);
+            JOptionPane.showMessageDialog(null,"Jumlah Menyetor Minimal Rp,50000","ERROR",0);
         }else if (s>=50000){
             JOptionPane.showMessageDialog(null,"Anda Mengambil Uang Sebesar : " + s);
             tab = tab+s;
