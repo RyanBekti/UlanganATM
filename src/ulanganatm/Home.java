@@ -195,7 +195,7 @@ public class Home extends javax.swing.JFrame {
         }else if (s<50000) {
             JOptionPane.showMessageDialog(null,"Jumlah Menyetor Minimal Rp,50000","ERROR",0);
         }else if (s>=50000){
-            JOptionPane.showMessageDialog(null,"Anda Mengambil Uang Sebesar : " + s);
+            JOptionPane.showMessageDialog(null,"Anda Menyetor Uang Sebesar : " + s);
             tab = tab+s;
             z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain?","ATM BNI SYARIAH-BOJONEGORO"
                                 ,JOptionPane.YES_NO_OPTION, 3);
